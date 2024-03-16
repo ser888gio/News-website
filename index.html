@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name = "publisher" content = "Zprávy, Noinvy"/>
     <link rel = "stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Zprávy 24/7</title>
 </head>
 <body>
@@ -15,10 +16,10 @@
         <img class = "logo" src = "images/logo.svg" alt = "logo">
         <nav>
             <ul class="nav_links">
-                <li><a href = "#politika">Politika</a></li>
-                <li><a href = "">Ekonomika</a></li>
+                <li><a href = "#politics">Politika</a></li>
+                <li><a href = "#economics">Ekonomika</a></li>
                 <li><a href = "#sport">Sport</a></li>
-                <li><a href = "">O nás</a></li>
+                <li><a href = "#footer-content">O nás</a></li>
             </ul>
         </nav>
     </header>
@@ -31,44 +32,102 @@
             </div>
         </div>
     </main>
-    <section class = "politika" id = "politika">
-        <div class="politika-clanky">
-            <article class = "politika-clanek">
+
+    <section class = "politics" id = "politics">
+        <div class="politics-part">
+            <article class = "politics-article">
                 <h2>Rozhovor s prezidentem</h2>
                 <p>Petr Pavel je už rok prezidentem. Jak daný období hodnotí. Sledujte dneska v <time datetime="18:00">18:00</time></p>
             </article>
-            <article class = "politika-clanek">
+            <article class = "politics-article">
                 <h2>Průzkum: Kdo může vyhrat nasledujicí volby</h2>
                 <p>Naše agentura provedla výzkum. Jaké politické strany můžou potencionalně vyhrat v dalších volbách</p>
             </article>
-            <article class = "politika-clanek">
+            <article class = "politics-article">
                 <h2>ANO chystá vyměnu šefa</h2>
-                <p>Aktualní vedoucí Andrej Babiš byl vyfocen se svým budoucím nástupcem/p>
+                <p>Aktualní vedoucí Andrej Babiš byl vyfocen se svým budoucím nástupcem</p>
             </article>
         </div>
     </section>
-    <section class = "sport" id = "sport">
-        <div class="sport-clanky">
-            <article class = "sport-clanek">
-                <h2>Kdo pojede na Euro</h2>
-                <p>Českým utočníkům se velice daří. Kdo ale se vejde do kadru?</p>
+
+    <section class = "economics" id = "economics">
+        <div class="economics-part">
+            <article class = "economics-article">
+                <h2>Vysoké školy chtějí vic peněž</h2>
+                <p>Vysoké školy potřebují více peněz, aby mohli studentům možnost použivat Github Copilot</p>
             </article>
-            <article class = "sport-clanek">
-                <h2>MS v hokeji už brzy v ČR</h2>
-                <p>V daném članku se dozvite všechny důležitá informace ohledně mistorovství světa, který se bude konat v Praze a Ostravě</p>
+            <article class = "economics-article">
+                <h2>Zájem o hyptoeky roste</h2>
+                <p>Banky hlasí stabilizaci hypotečního trhu. Prognoza ukazuje, že by se za rok 2024 mohlo půjčit 15 miliard korun</p>
+            </article>
+            <article class = "economics-article">
+                <h2>Inflace klesá</h2>
+                <p>ČNB potvrdilo, že inflace za únor se vratila k normálům - 2%</p>
                 <aside>
-                    <h3>Tipsport Extraliga Hokej</h3>
-                    <p>Pořadí tymu v české lize</p>
-                    <ol>
-                        <li>Dynamo Pardubice</li>
-                        <li>Sparta Praha</li>
-                        <li>Třinec</li>
-                        <li>Kometa Brno</li>
-                    </ol>
+                    <p>Náposled tak nizka byla inflace v roce 2019</p>
                 </aside>
             </article>
         </div>
     </section>
 
+    <section class = "sport" id = "sport">
+        <div class="sport-part">
+            <article class = "sport-article">
+                <h2>Kdo pojede na Euro</h2>
+                <p>Českým utočníkům se velice daří. Kdo ale se vejde do kadru?</p>
+            </article>
+            <article class = "sport-article">
+                <h2>MS v hokeji už brzy v ČR</h2>
+                <p>V daném članku se dozvite všechny důležitá informace ohledně mistorovství světa, který se bude konat v Praze a Ostravě</p>
+            </article>
+            <article class = "sport-article">
+                <h3>Tipsport Extraliga Hokej</h3>
+                <p>Pořadí tymu v české lize</p>
+                <ol>
+                    <li>Dynamo Pardubice</li>
+                    <li>Sparta Praha</li>
+                    <li>Třinec</li>
+                    <li>Kometa Brno</li>
+                </ol>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <div class="main-content" id = "footer-content">
+            <div class="left-side">
+                <h2>O nás</h2>
+                <section class = "content">
+                    <p>Naším cílem je poskytovat našim čtenářům přesné, objektivní a relevantní informace, které jim pomohou pochopit svět kolem nich. Jsme odhodláni informovat o důležitých událostech a otázkách a vést konstruktivní dialog o budoucnosti.</p>
+                    <section class ="social-media">
+                        <a href ="#"><span class ="fa fa-facebook"></span></a>
+                        <a href ="#"><span class ="fa fa-twitter"></span></a>
+                        <a href ="#"><span class ="fa fa-youtube"></span></a>
+                        <a href ="#"><span class ="fa fa-linkedin"></span></a>
+                    </section>
+                </section>
+            </div>
+            <section class = "right-side">
+                   <h2>Kontaktujte nás</h2>
+                    <form>
+                        <div class="name">
+                            <label for = "name">Váše jméno a příjmení: </label>
+                            <input name = "name" id = "name" required>
+                        </div>
+                        <div class="email">
+                            <label for = "email">Váš e-mail: </label>
+                            <input name = "email" id = "email" required>
+                        </div>
+                        <div class="message">
+                            <label for = "message">Váše zpráva: </label>
+                            <input name = "message" id = "message" required>
+                        </div>
+                        <div class="button-send">
+                            <button>Poslat</button>
+                        </div>
+                    </form>
+            </section>
+            </div>
+    </footer>
 </body>
 </html>

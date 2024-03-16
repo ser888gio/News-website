@@ -81,27 +81,132 @@ main{
 }
 
 aside {
-    width: 40%;
+    width: 100%;
     padding-left: 0.5rem;
-    margin-left: 0.5rem;
-    float: right;
+    margin-left: -20px;
+    float: inherit;
+    box-shadow: inset 5px  0 5px -5px ;
+    font-style: italic;
+    color: #29627e;
 }
 
 aside > p {
     margin: 0.5rem;
+    color: #3B5998;
 }
 
-.politika-clanky, .sport-clanky{
+.politics-part, .economics-part, .sport-part{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.politics-part, .economics-part, .sport-part > h2{
+    text-align: center;
+}
+
+.politics-article, .economics-article, .sport-article{
+    width: 300px;
+    height: 320px;
+    border: #55ACEE solid 2px;
+    margin: 20px;
+    text-align: start;
+}
+
+
 article{
-    padding: 0px 15px;
+    padding: 30px;
     height: 100%;
     width: 50%;
     text-align: center;
     border: lightblue;
     border-radius: 25px;
+}
+
+footer{
+    bottom: 0;
+    width: 100%;
+    background-color: slategrey;
+}
+
+.main-content{
+    display: flex;
+}
+
+.main-content .side{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.side h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.side .content{
+    margin: 20px 0 0 0;
+}
+
+.left-side .social-media{
+    margin: 20px 0 0 0;
+}
+
+.left-side .content .social-media a{
+    padding: 0 2px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.left-side, .right-side{
+    padding: 100px;
+}
+
+.button-send {
+    align-items: center;
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    padding: 0 16px 0 16px;
+    text-align: left;
+    font-size: 18px;
+    margin-top: 20px;
 }
