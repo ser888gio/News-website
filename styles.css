@@ -101,7 +101,7 @@ aside > p {
     align-items: center;
 }
 
-.politics-part, .economics-part, .sport-part > h2{
+.politics-article, .economics-article, .sport-article article h2{
     text-align: center;
 }
 
