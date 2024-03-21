@@ -101,8 +101,9 @@ aside > p {
     align-items: center;
 }
 
-.politics-article, .economics-article, .sport-article article h2{
+.article-title{
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .politics-article, .economics-article, .sport-article{
