@@ -211,3 +211,9 @@ footer{
     font-size: 18px;
     margin-top: 20px;
 }
+
+.section-title{
+    text-align: center;
+    font-size: 2rem;
+    margin: 10px;
+}
