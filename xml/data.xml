@@ -13,16 +13,10 @@
             <link_to_author_profile>https://example.com/authors/anna_n</link_to_author_profile>
             <author_bio>Politický analytik se zaměřením na moderní dějiny.</author_bio>
         </author>
-        <abstract>
-            Článek se zaměřuje na vliv politiky na vývoj moderních demokracií a jejich institucí.
-        </abstract>
+        <abstract>Článek se zaměřuje na vliv politiky na vývoj moderních demokracií a jejich institucí.</abstract>
         <category>politika</category>
-        <perex>
-            Politika má klíčový vliv na vývoj společnosti a demokratických procesů.
-        </perex>
-        <content>
-            Obsah článku se zaměřuje na historický vývoj politických ideologií a jejich dopad na současnou politickou scénu.
-        </content>
+        <perex>Politika má klíčový vliv na vývoj společnosti a demokratických procesů.</perex>
+        <content>Obsah článku se zaměřuje na historický vývoj politických ideologií a jejich dopad na současnou politickou scénu.</content>
         <create_date>2024-04-04</create_date>
         <update_date>2024-04-05</update_date>
         <citations>
@@ -66,16 +60,10 @@
             <link_to_author_profile>https://example.com/authors/pavel_n</link_to_author_profile>
             <author_bio>Ekonom a publicista specializující se na makroekonomické trendy.</author_bio>
         </author>
-        <abstract>
-            Článek se zabývá různými přístupy k hospodářským reformám v 21. století a jejich dopady na globální ekonomiku.
-        </abstract>
+        <abstract>Článek se zabývá různými přístupy k hospodářským reformám v 21. století a jejich dopady na globální ekonomiku.</abstract>
         <category>ekonomika</category>
-        <perex>
-            Hospodářské reformy jsou klíčovým faktorem pro ekonomický rozvoj a stabilitu.
-        </perex>
-        <content>
-            Obsah článku zkoumá různé politiky, které byly provedeny ve snaze stimulovat růst a inovaci v ekonomice.
-        </content>
+        <perex>Hospodářské reformy jsou klíčovým faktorem pro ekonomický rozvoj a stabilitu.</perex>
+        <content>Obsah článku zkoumá různé politiky, které byly provedeny ve snaze stimulovat růst a inovaci v ekonomice.</content>
         <create_date>2024-04-04</create_date>
         <update_date>2024-04-04</update_date>
         <citations>
@@ -112,16 +100,10 @@
             <link_to_author_profile>https://example.com/authors/michal_n</link_to_author_profile>
             <author_bio>Sportovní novinář se zájmem o kulisy sportovních událostí.</author_bio>
         </author>
-        <abstract>
-            Článek se zaměřuje na nejnovější události ve světě sportu a detaily zákulisních rozhodnutí.
-        </abstract>
+        <abstract>Článek se zaměřuje na nejnovější události ve světě sportu a detaily zákulisních rozhodnutí.</abstract>
         <category>sport</category>
-        <perex>
-            Zákulisí sportovních událostí může být stejně zajímavé jako samotné závody.
-        </perex>
-        <content>
-            Obsah článku odhaluje různé faktory ovlivňující výsledky sportovních soutěží a způsob, jakým se rozhoduje o pořadí.
-        </content>
+        <perex>Zákulisí sportovních událostí může být stejně zajímavé jako samotné závody.</perex>
+        <content>Obsah článku odhaluje různé faktory ovlivňující výsledky sportovních soutěží a způsob, jakým se rozhoduje o pořadí.</content>
         <create_date>2024-04-04</create_date>
         <update_date>2024-04-07</update_date>
         <citations>
@@ -156,16 +138,10 @@
             <link_to_author_profile>https://example.com/authors/jana_s</link_to_author_profile>
             <author_bio>Mezinárodní vztahy expert s dlouholetou praxí v diplomatických službách.</author_bio>
         </author>
-        <abstract>
-            Článek zkoumá roli mezinárodní diplomacie v současné globalizované společnosti.
-        </abstract>
+        <abstract>Článek zkoumá roli mezinárodní diplomacie v současné globalizované společnosti.</abstract>
         <category>politika</category>
-        <perex>
-            Mezinárodní diplomacie je klíčovým nástrojem pro řešení globálních výzev.
-        </perex>
-        <content>
-            Obsah článku se zaměřuje na význam diplomacie v prevenci konfliktů, ochranu lidských práv a podporu mezinárodní spolupráce.
-        </content>
+        <perex>Mezinárodní diplomacie je klíčovým nástrojem pro řešení globálních výzev.</perex>
+        <content>Obsah článku se zaměřuje na význam diplomacie v prevenci konfliktů, ochranu lidských práv a podporu mezinárodní spolupráce.</content>
         <create_date>2024-03-14</create_date>
         <update_date>2024-04-01</update_date>
         <citations>
@@ -203,16 +179,10 @@
             <link_to_author_profile>https://example.com/authors/katerina_n</link_to_author_profile>
             <author_bio>Digitální marketingová specialistka se zaměřením na inovativní přístupy.</author_bio>
         </author>
-        <abstract>
-            Článek představuje nejnovější trendy a strategie v oblasti digitálního marketingu.
-        </abstract>
+        <abstract>Článek představuje nejnovější trendy a strategie v oblasti digitálního marketingu.</abstract>
         <category>ekonomika</category>
-        <perex>
-            Digitální marketing se stává stále důležitějším nástrojem pro podnikání v digitální éře.
-        </perex>
-        <content>
-            Obsah článku zkoumá nové technologie a sociální média jako klíčové faktory pro úspěšný digitální marketing.
-        </content>
+        <perex>Digitální marketing se stává stále důležitějším nástrojem pro podnikání v digitální éře.</perex>
+        <content>Obsah článku zkoumá nové technologie a sociální média jako klíčové faktory pro úspěšný digitální marketing.</content>
         <create_date>2024-04-04</create_date>
         <update_date xsi:nil="true"/>
         <citations>
@@ -250,16 +220,10 @@
             <link_to_author_profile>https://example.com/authors/jan_n</link_to_author_profile>
             <author_bio>Sports journalist with extensive experience in reporting from sporting events.</author_bio>
         </author>
-        <abstract>
-            The article focuses on the achievements of Czech athletes in international competitions and tournaments.
-        </abstract>
+        <abstract>The article focuses on the achievements of Czech athletes in international competitions and tournaments.</abstract>
         <category>sport</category>
-        <perex>
-            Czech sports stars prove their talent and determination on the international stage.
-        </perex>
-        <content>
-            The content of the article provides an overview of the latest victories and successes of Czech athletes in various disciplines.
-        </content>
+        <perex>Czech sports stars prove their talent and determination on the international stage.</perex>
+        <content>The content of the article provides an overview of the latest victories and successes of Czech athletes in various disciplines.</content>
         <create_date>2024-04-04</create_date>
         <update_date xsi:nil="true"/>
         <citations>
