@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema.xsd">
-    <article article-type="original" status="active" views="480" likes="11">
-        <article-id>1</article-id>
+    <article article_type="original" status="active" views="480" likes="11">
+        <article_id>1</article_id>
         <title>Politika a vývoj moderní demokracie</title>
-        <content-status>Published</content-status>
-        <podcast-link>https://example.com/politics_podcast</podcast-link>
-        <language>Czech</language>
-        <estimated-reading-time-in-minutes>15</estimated-reading-time-in-minutes>
-        <author author-id="1">
-            <author-fullname>Anna Nováková</author-fullname>
-            <author-username>anna_n</author-username>
-            <link-to-author-profile>https://example.com/authors/anna_n</link-to-author-profile>
-            <author-bio>Politický analytik se zaměřením na moderní dějiny.</author-bio>
+        <content_status>publikovaný</content_status>
+        <podcast_link>https://example.com/politics_podcast</podcast_link>
+        <language>čeština</language>
+        <estimated_reading_time_in_minutes>15</estimated_reading_time_in_minutes>
+        <author author_id="1">
+            <author_fullname>Anna Nováková</author_fullname>
+            <author_username>anna_n</author_username>
+            <link_to_author_profile>https://example.com/authors/anna_n</link_to_author_profile>
+            <author_bio>Politický analytik se zaměřením na moderní dějiny.</author_bio>
         </author>
         <abstract>
             Článek se zaměřuje na vliv politiky na vývoj moderních demokracií a jejich institucí.
@@ -23,10 +23,10 @@
         <content>
             Obsah článku se zaměřuje na historický vývoj politických ideologií a jejich dopad na současnou politickou scénu.
         </content>
-        <create-date>2024-04-04</create-date>
-        <update-date>2024-04-05</update-date>
+        <create_date>2024-04-04</create_date>
+        <update_date>2024-04-05</update_date>
         <citations>
-            <citation>Smith, J. (2020). The Evolution of Democracy. Journal of Political Science, 25(2), 123-140.</citation>
+            <citation>Smith, J. (2020). The Evolution of Democracy. Journal of Political Science, 25(2), 123–140.</citation>
             <citation>Doe, A. (2018). Political Ideologies in the 21st Century. Cambridge University Press.</citation>
         </citations>
         <tags>
@@ -35,36 +35,36 @@
             <tag>demokracie</tag>
         </tags>
         <contributors>
-            <contributor contributor-id="1">John Doe</contributor>
-            <contributor contributor-id="2">Jane Smith</contributor>
+            <contributor contributor_id="1">John Doe</contributor>
+            <contributor contributor_id="2">Jane Smith</contributor>
         </contributors>
-        <comments comments-enabled="true">
+        <comments comments_enabled="true">
             <comment>
-                <comment-author>Pavel Novák</comment-author>
-                <comment-profile-link>https://example.com/users/pavel_n</comment-profile-link>
-                <comment-content>Skvělý článek!</comment-content>
-                <comment-publish-date>2024-04-04</comment-publish-date>
+                <comment_author>Pavel Novák</comment_author>
+                <comment_profile_link>https://example.com/users/pavel_n</comment_profile_link>
+                <comment_content>Skvělý článek!</comment_content>
+                <comment_publish_date>2024-04-04</comment_publish_date>
             </comment>
             <comment>
-                <comment-author>Marie Kovářová</comment-author>
-                <comment-profile-link>https://example.com/users/marie_k</comment-profile-link>
-                <comment-content>Velmi zajímavé reflexe.</comment-content>
-                <comment-publish-date>2024-04-05</comment-publish-date>
+                <comment_author>Marie Kovářová</comment_author>
+                <comment_profile_link>https://example.com/users/marie_k</comment_profile_link>
+                <comment_content>Velmi zajímavé reflexe.</comment_content>
+                <comment_publish_date>2024-04-05</comment_publish_date>
             </comment>
         </comments>
     </article>
-    <article article-type="derived" status="active" views="485" likes="365">
-        <article-id>2</article-id>
+    <article article_type="derived" status="active" views="485" likes="365">
+        <article_id>2</article_id>
         <title>Hospodářské reformy ve 21. století</title>
-        <content-status>Published</content-status>
-        <podcast-link>https://example.com/economy_podcast</podcast-link>
-        <language>Czech</language>
-        <estimated-reading-time-in-minutes>20</estimated-reading-time-in-minutes>
-        <author author-id="2" department="tisk">
-            <author-fullname>Pavel Novotný</author-fullname>
-            <author-username>pavel_n</author-username>
-            <link-to-author-profile>https://example.com/authors/pavel_n</link-to-author-profile>
-            <author-bio>Ekonom a publicista specializující se na makroekonomické trendy.</author-bio>
+        <content_status>publikovaný</content_status>
+        <podcast_link>https://example.com/economy_podcast</podcast_link>
+        <language>čeština</language>
+        <estimated_reading_time_in_minutes>20</estimated_reading_time_in_minutes>
+        <author author_id="2" department="tisk">
+            <author_fullname>Pavel Novotný</author_fullname>
+            <author_username>pavel_n</author_username>
+            <link_to_author_profile>https://example.com/authors/pavel_n</link_to_author_profile>
+            <author_bio>Ekonom a publicista specializující se na makroekonomické trendy.</author_bio>
         </author>
         <abstract>
             Článek se zabývá různými přístupy k hospodářským reformám v 21. století a jejich dopady na globální ekonomiku.
@@ -76,41 +76,41 @@
         <content>
             Obsah článku zkoumá různé politiky, které byly provedeny ve snaze stimulovat růst a inovaci v ekonomice.
         </content>
-        <create-date>2024-04-04</create-date>
-        <update-date>2024-04-04</update-date>
+        <create_date>2024-04-04</create_date>
+        <update_date>2024-04-04</update_date>
         <citations>
             <citation>Johnson, M. (2021). Economic Reforms in the Digital Age. Oxford University Press.</citation>
-            <citation>Chen, L. (2019). Global Economic Trends. Harvard Business Review, 30(3), 45-60.</citation>
+            <citation>Chen, L. (2019). Global Economic Trends. Harvard Business Review, 30(3), 45–60.</citation>
         </citations>
         <tags>
             <tag>ekonomika</tag>
             <tag>reformy</tag>
         </tags>
         <contributors>
-            <contributor contributor-id="3">Michael Johnson</contributor>
-            <contributor contributor-id="4">Linda Chen</contributor>
+            <contributor contributor_id="3">Michael Johnson</contributor>
+            <contributor contributor_id="4">Linda Chen</contributor>
         </contributors>
-        <comments comments-enabled="true">
+        <comments comments_enabled="true">
             <comment>
-                <comment-author>Jiří Novák</comment-author>
-                <comment-profile-link>https://example.com/users/jiri_n</comment-profile-link>
-                <comment-content>Velmi aktuální téma, děkuji za článek!</comment-content>
-                <comment-publish-date>2024-04-04</comment-publish-date>
+                <comment_author>Jiří Novák</comment_author>
+                <comment_profile_link>https://example.com/users/jiri_n</comment_profile_link>
+                <comment_content>Velmi aktuální téma, děkuji za článek!</comment_content>
+                <comment_publish_date>2024-04-04</comment_publish_date>
             </comment>
         </comments>
     </article>
-    <article article-type="original" status="inactive" views="150" likes="99">
-        <article-id>3</article-id>
+    <article article_type="original" status="inactive" views="150" likes="99">
+        <article_id>3</article_id>
         <title>Zákulisí sportovních událostí</title>
-        <content-status>Draft</content-status>
-        <podcast-link xsi:nil="true"/>
-        <language>Czech</language>
-        <estimated-reading-time-in-minutes>25</estimated-reading-time-in-minutes>
-        <author author-id="3" department="tisk">
-            <author-fullname>Michal Novák</author-fullname>
-            <author-username>michal_n</author-username>
-            <link-to-author-profile>https://example.com/authors/michal_n</link-to-author-profile>
-            <author-bio>Sportovní novinář se zájmem o kulisy sportovních událostí.</author-bio>
+        <content_status>publikovaný</content_status>
+        <podcast_link xsi:nil="true"/>
+        <language>čeština</language>
+        <estimated_reading_time_in_minutes>25</estimated_reading_time_in_minutes>
+        <author author_id="3" department="tisk">
+            <author_fullname>Michal Novák</author_fullname>
+            <author_username>michal_n</author_username>
+            <link_to_author_profile>https://example.com/authors/michal_n</link_to_author_profile>
+            <author_bio>Sportovní novinář se zájmem o kulisy sportovních událostí.</author_bio>
         </author>
         <abstract>
             Článek se zaměřuje na nejnovější události ve světě sportu a detaily zákulisních rozhodnutí.
@@ -122,39 +122,39 @@
         <content>
             Obsah článku odhaluje různé faktory ovlivňující výsledky sportovních soutěží a způsob, jakým se rozhoduje o pořadí.
         </content>
-        <create-date>2024-04-04</create-date>
-        <update-date>2024-04-07</update-date>
+        <create_date>2024-04-04</create_date>
+        <update_date>2024-04-07</update_date>
         <citations>
-            <citation>Kovář, P. (2022). Behind the Scenes of Sports Events. Sports Review, 15(4), 78-92.</citation>
+            <citation>Kovář, P. (2022). Behind the Scenes of Sports Events. Sports Review, 15(4), 78–92.</citation>
         </citations>
         <tags>
             <tag>sport</tag>
             <tag>události</tag>
         </tags>
         <contributors>
-            <contributor contributor-id="5">Petr Kovář</contributor>
+            <contributor contributor_id="5">Petr Kovář</contributor>
         </contributors>
-        <comments comments-enabled="true">
+        <comments comments_enabled="true">
             <comment>
-                <comment-author>Veronika Nováková</comment-author>
-                <comment-profile-link>https://example.com/users/veronika_n</comment-profile-link>
-                <comment-content>Super téma, těším se na další články!</comment-content>
-                <comment-publish-date>2024-04-04</comment-publish-date>
+                <comment_author>Veronika Nováková</comment_author>
+                <comment_profile_link>https://example.com/users/veronika_n</comment_profile_link>
+                <comment_content>Super téma, těším se na další články!</comment_content>
+                <comment_publish_date>2024-04-04</comment_publish_date>
             </comment>
         </comments>
     </article>
-    <article source-url="https://sample-article-url.cz">
-        <article-id>4</article-id>
+    <article source_url="https://sample-article-url.cz">
+        <article_id>4</article_id>
         <title>Význam mezinárodní diplomacie v 21. století</title>
-        <content-status>Draft</content-status>
-        <podcast-link xsi:nil="true"/>
-        <language>Czech</language>
-        <estimated-reading-time-in-minutes>18</estimated-reading-time-in-minutes>
-        <author author-id="4" department="tisk">
-            <author-fullname>Jana Svobodová</author-fullname>
-            <author-username>jana_s</author-username>
-            <link-to-author-profile>https://example.com/authors/jana_s</link-to-author-profile>
-            <author-bio>Mezinárodní vztahy expert s dlouholetou praxí v diplomatických službách.</author-bio>
+        <content_status>návrh</content_status>
+        <podcast_link xsi:nil="true"/>
+        <language>čeština</language>
+        <estimated_reading_time_in_minutes>18</estimated_reading_time_in_minutes>
+        <author author_id="4" department="tisk">
+            <author_fullname>Jana Svobodová</author_fullname>
+            <author_username>jana_s</author_username>
+            <link_to_author_profile>https://example.com/authors/jana_s</link_to_author_profile>
+            <author_bio>Mezinárodní vztahy expert s dlouholetou praxí v diplomatických službách.</author_bio>
         </author>
         <abstract>
             Článek zkoumá roli mezinárodní diplomacie v současné globalizované společnosti.
@@ -166,8 +166,8 @@
         <content>
             Obsah článku se zaměřuje na význam diplomacie v prevenci konfliktů, ochranu lidských práv a podporu mezinárodní spolupráce.
         </content>
-        <create-date>2024-03-14</create-date>
-        <update-date>2024-04-01</update-date>
+        <create_date>2024-03-14</create_date>
+        <update_date>2024-04-01</update_date>
         <citations>
             <citation>Miller, D. (2019). International Diplomacy: Theory and Practice. Routledge.</citation>
             <citation>Lee, H. (2020). Diplomatic Strategies for the 21st Century. Oxford University Press.</citation>
@@ -178,30 +178,30 @@
             <tag>vztahy</tag>
         </tags>
         <contributors>
-            <contributor contributor-id="6">David Miller</contributor>
-            <contributor contributor-id="7">Hannah Lee</contributor>
+            <contributor contributor_id="6">David Miller</contributor>
+            <contributor contributor_id="7">Hannah Lee</contributor>
         </contributors>
-        <comments comments-enabled="true">
+        <comments comments_enabled="true">
             <comment>
-                <comment-author>Martin Novák</comment-author>
-                <comment-profile-link>https://example.com/users/martin_n</comment-profile-link>
-                <comment-content>Skvělý článek, mám rád, že se někdo zabývá tímto tématem!</comment-content>
-                <comment-publish-date>2024-04-04</comment-publish-date>
+                <comment_author>Martin Novák</comment_author>
+                <comment_profile_link>https://example.com/users/martin_n</comment_profile_link>
+                <comment_content>Skvělý článek, mám rád, že se někdo zabývá tímto tématem!</comment_content>
+                <comment_publish_date>2024-04-04</comment_publish_date>
             </comment>
         </comments>
     </article>
-    <article source-url="https://sample-article-url.cz">
-        <article-id>5</article-id>
+    <article source_url="https://sample-article-url.cz">
+        <article_id>5</article_id>
         <title>Nové trendy ve světě digitálního marketingu</title>
-        <content-status>Draft</content-status>
-        <podcast-link xsi:nil="true"/>
-        <language>Czech</language>
-        <estimated-reading-time-in-minutes>22</estimated-reading-time-in-minutes>
-        <author author-id="5" department="tisk">
-            <author-fullname>Kateřina Nová</author-fullname>
-            <author-username>katerina_n</author-username>
-            <link-to-author-profile>https://example.com/authors/katerina_n</link-to-author-profile>
-            <author-bio>Digitální marketingová specialistka se zaměřením na inovativní přístupy.</author-bio>
+        <content_status>čeká na schválení</content_status>
+        <podcast_link xsi:nil="true"/>
+        <language>čeština</language>
+        <estimated_reading_time_in_minutes>22</estimated_reading_time_in_minutes>
+        <author author_id="5" department="tisk">
+            <author_fullname>Kateřina Nová</author_fullname>
+            <author_username>katerina_n</author_username>
+            <link_to_author_profile>https://example.com/authors/katerina_n</link_to_author_profile>
+            <author_bio>Digitální marketingová specialistka se zaměřením na inovativní přístupy.</author_bio>
         </author>
         <abstract>
             Článek představuje nejnovější trendy a strategie v oblasti digitálního marketingu.
@@ -213,10 +213,10 @@
         <content>
             Obsah článku zkoumá nové technologie a sociální média jako klíčové faktory pro úspěšný digitální marketing.
         </content>
-        <create-date>2024-04-04</create-date>
-        <update-date xsi:nil="true"/>
+        <create_date>2024-04-04</create_date>
+        <update_date xsi:nil="true"/>
         <citations>
-            <citation>Smith, R. (2020). Digital Marketing Strategies for Success. Harvard Business Review, 35(2), 80-95.</citation>
+            <citation>Smith, R. (2020). Digital Marketing Strategies for Success. Harvard Business Review, 35(2), 80–95.</citation>
             <citation>Jones, E. (2018). The Power of Social Media Marketing. MIT Press.</citation>
         </citations>
         <tags>
@@ -225,62 +225,62 @@
             <tag>inovace</tag>
         </tags>
         <contributors>
-            <contributor contributor-id="8">Richard Smith</contributor>
-            <contributor contributor-id="9">Emily Jones</contributor>
+            <contributor contributor_id="8">Richard Smith</contributor>
+            <contributor contributor_id="9">Emily Jones</contributor>
         </contributors>
-        <comments comments-enabled="true">
+        <comments comments_enabled="true">
             <comment>
-                <comment-author author-email="tomas.novak@email.cz">Tomáš Novák</comment-author>
-                <comment-profile-link>https://example.com/users/tomas_n</comment-profile-link>
-                <comment-content>Skvělý přehled současných trendů!</comment-content>
-                <comment-publish-date>2024-04-04</comment-publish-date>
+                <comment_author author_email="tomas.novak@email.cz">Tomáš Novák</comment_author>
+                <comment_profile_link>https://example.com/users/tomas_n</comment_profile_link>
+                <comment_content>Skvělý přehled současných trendů!</comment_content>
+                <comment_publish_date>2024-04-04</comment_publish_date>
             </comment>
         </comments>
     </article>
-    <article source-url="https://sample-article-url.cz">
-        <article-id>6</article-id>
-        <title>Nejnovější sportovní úspěchy českých sportovců</title>
-        <content-status>Draft</content-status>
-        <podcast-link xsi:nil="true"/>
-        <language>Czech</language>
-        <estimated-reading-time-in-minutes>18</estimated-reading-time-in-minutes>
-        <author author-id="6">
-            <author-fullname>Jan Novák</author-fullname>
-            <author-username>jan_n</author-username>
-            <link-to-author-profile>https://example.com/authors/jan_n</link-to-author-profile>
-            <author-bio>Sportovní novinář s dlouholetou zkušeností v reportážích ze sportovních akcí.</author-bio>
+    <article source_url="https://sample-article-url.cz">
+        <article_id>6</article_id>
+        <title>Latest sports achievements of Czech athletes</title>
+        <content_status>rozpracovaný</content_status>
+        <podcast_link xsi:nil="true"/>
+        <language>english</language>
+        <estimated_reading_time_in_minutes>18</estimated_reading_time_in_minutes>
+        <author author_id="6">
+            <author_fullname>Jan Novák</author_fullname>
+            <author_username>jan_n</author_username>
+            <link_to_author_profile>https://example.com/authors/jan_n</link_to_author_profile>
+            <author_bio>Sports journalist with extensive experience in reporting from sporting events.</author_bio>
         </author>
         <abstract>
-            Článek se zaměřuje na úspěchy českých sportovců na mezinárodních soutěžích a turnajích.
+            The article focuses on the achievements of Czech athletes in international competitions and tournaments.
         </abstract>
         <category>sport</category>
         <perex>
-            České sportovní hvězdy dokazují svůj talent a odhodlání na mezinárodní scéně.
+            Czech sports stars prove their talent and determination on the international stage.
         </perex>
         <content>
-            Obsah článku přináší přehled nejnovějších vítězství a úspěchů českých sportovců v různých disciplínách.
+            The content of the article provides an overview of the latest victories and successes of Czech athletes in various disciplines.
         </content>
-        <create-date>2024-04-04</create-date>
-        <update-date xsi:nil="true"/>
+        <create_date>2024-04-04</create_date>
+        <update_date xsi:nil="true"/>
         <citations>
-            <citation>Novák, P. (2021). Czech Sports Achievements in the Global Arena. Sports Journal, 18(3), 60-75.</citation>
-            <citation>Havlíček, M. (2019). Success Stories of Czech Athletes. Sports Illustrated, 22(4), 105-120.</citation>
+            <citation>Novák, P. (2021). Czech Sports Achievements in the Global Arena. Sports Journal, 18(3), 60–75.</citation>
+            <citation>Havlíček, M. (2019). Success Stories of Czech Athletes. Sports Illustrated, 22(4), 105–120.</citation>
         </citations>
         <tags>
             <tag>sport</tag>
-            <tag>česko</tag>
-            <tag>olympiada</tag>
+            <tag>czech</tag>
+            <tag>olympics</tag>
         </tags>
         <contributors>
-            <contributor contributor-id="10">Petr Novák</contributor>
-            <contributor contributor-id="11">Martin Havlíček</contributor>
+            <contributor contributor_id="10">Petr Novák</contributor>
+            <contributor contributor_id="11">Martin Havlíček</contributor>
         </contributors>
-        <comments comments-enabled="true">
+        <comments comments_enabled="true">
             <comment>
-                <comment-author author-email="evanovakova@gmail.com">Eva Nová</comment-author>
-                <comment-profile-link>https://example.com/users/eva_n</comment-profile-link>
-                <comment-content>Skvělý článek, moc děkuji!</comment-content>
-                <comment-publish-date>2024-04-04</comment-publish-date>
+                <comment_author author_email="evanovakova@gmail.com">Eva Nová</comment_author>
+                <comment_profile_link>https://example.com/users/eva_n</comment_profile_link>
+                <comment_content>Great article, thank you very much!</comment_content>
+                <comment_publish_date>2024-04-04</comment_publish_date>
             </comment>
         </comments>
     </article>

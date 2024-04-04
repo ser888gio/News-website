@@ -12,47 +12,47 @@
     <xs:element name="article">
         <xs:complexType>
             <xs:sequence>
-                <xs:element ref="article-id"/>
+                <xs:element ref="article_id"/>
                 <xs:element ref="title"/>
-                <xs:element ref="content-status"/>
-                <xs:element ref="podcast-link"/>
+                <xs:element ref="content_status"/>
+                <xs:element ref="podcast_link"/>
                 <xs:element ref="language"/>
-                <xs:element ref="estimated-reading-time-in-minutes"/>
+                <xs:element ref="estimated_reading_time_in_minutes"/>
                 <xs:element ref="author"/>
                 <xs:element ref="abstract"/>
                 <xs:element ref="category"/>
                 <xs:element ref="perex"/>
                 <xs:element ref="content"/>
-                <xs:element ref="create-date"/>
-                <xs:element ref="update-date"/>
+                <xs:element ref="create_date"/>
+                <xs:element ref="update_date"/>
                 <xs:element ref="citations"/>
                 <xs:element ref="tags"/>
                 <xs:element ref="contributors"/>
                 <xs:element ref="comments"/>
             </xs:sequence>
-            <xs:attribute name="article-type" type="xs:string"/>
+            <xs:attribute name="article_type" type="xs:string"/>
             <xs:attribute name="status" type="xs:string"/>
             <xs:attribute name="views" type="xs:integer"/>
             <xs:attribute name="likes" type="xs:integer"/>
-            <xs:attribute name="source-url" type="xs:string"/>
+            <xs:attribute name="source_url" type="link_url"/>
         </xs:complexType>
     </xs:element>
     <!-- Article attributes definition (including data types) -->
-    <xs:element name="article-id" type="xs:integer"/>
-    <xs:element name="title" type="article-title"/>
-    <xs:element name="content-status" type="article-title"/>
-    <xs:element name="podcast-link" type="article-title" nillable="true"/>
-    <xs:element name="language" type="article-title"/>
-    <xs:element name="estimated-reading-time-in-minutes" type="xs:integer"/>
+    <xs:element name="article_id" type="xs:integer"/>
+    <xs:element name="title" type="article_title"/>
+    <xs:element name="content_status" type="content_status_type"/>
+    <xs:element name="podcast_link" type="link_url" nillable="true"/>
+    <xs:element name="language" type="language_type"/>
+    <xs:element name="estimated_reading_time_in_minutes" type="xs:integer"/>
     <xs:element name="author">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="author-fullname" type="xs:string"/>
-                <xs:element name="author-username" type="xs:string"/>
-                <xs:element name="link-to-author-profile" type="xs:string"/>
-                <xs:element name="author-bio" type="xs:string"/>
+                <xs:element name="author_fullname" type="xs:string"/>
+                <xs:element name="author_username" type="xs:string"/>
+                <xs:element name="link_to_author_profile" type="link_url"/>
+                <xs:element name="author_bio" type="xs:string"/>
             </xs:sequence>
-            <xs:attribute name="author-id" type="xs:integer"/>
+            <xs:attribute name="author_id" type="xs:integer"/>
             <xs:attribute name="department" type="xs:string"/>
         </xs:complexType>
     </xs:element>
@@ -60,8 +60,8 @@
     <xs:element name="category" type="xs:string"/>
     <xs:element name="perex" type="xs:string"/>
     <xs:element name="content" type="xs:string"/>
-    <xs:element name="create-date" type="xs:NMTOKEN"/>
-    <xs:element name="update-date" type="xs:NMTOKEN" nillable="true"/>
+    <xs:element name="create_date" type="date"/>
+    <xs:element name="update_date" type="date" nillable="true"/>
     <xs:element name="tags">
         <xs:complexType>
             <xs:sequence>
@@ -89,7 +89,7 @@
         <xs:complexType>
             <xs:simpleContent>
                 <xs:extension base="xs:string">
-                    <xs:attribute name="contributor-id" type="xs:integer"/>
+                    <xs:attribute name="contributor_id" type="xs:integer"/>
                 </xs:extension>
             </xs:simpleContent>
         </xs:complexType>
@@ -99,31 +99,69 @@
             <xs:sequence>
                 <xs:element maxOccurs="unbounded" ref="comment"/>
             </xs:sequence>
-            <xs:attribute name="comments-enabled" type="xs:boolean" />
+            <xs:attribute name="comments_enabled" type="xs:boolean" />
         </xs:complexType>
     </xs:element>
     <xs:element name="comment">
             <xs:complexType>
                 <xs:sequence>
-                    <xs:element name="comment-author">
+                    <xs:element name="comment_author">
                         <xs:complexType>
                             <xs:simpleContent>
                                 <xs:extension base="xs:string">
-                                    <xs:attribute name="author-email" type="xs:string"/>
+                                    <xs:attribute name="author_email" type="xs:string"/>
                                 </xs:extension>
                             </xs:simpleContent>
                         </xs:complexType>
                     </xs:element>
-                    <xs:element name="comment-profile-link" type="xs:string" />
-                    <xs:element name="comment-content" type="xs:string" />
-                    <xs:element name="comment-publish-date" type="xs:NMTOKEN" />
+                    <xs:element name="comment_profile_link" type="link_url" />
+                    <xs:element name="comment_content" type="comment_content_type" />
+                    <xs:element name="comment_publish_date" type="date" />
                 </xs:sequence>
             </xs:complexType>
     </xs:element>
-    <!-- Article attributes validation -->
-    <xs:simpleType name="article-title">
+    <!-- Article title validation -->
+    <xs:simpleType name="article_title">
         <xs:restriction base="xs:string">
             <xs:maxLength value="50"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <!-- URL Links validation -->
+    <xs:simpleType name="link_url">
+        <xs:restriction base="xs:anyURI">
+            <xs:pattern value="https://.*"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <!-- Comment content validation -->
+    <xs:simpleType name="comment_content_type">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="350"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <!-- Date validation (format YYYY-MM-DD) -->
+    <xs:simpleType name="date">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <!-- Content status validation -->
+    <xs:simpleType name="content_status_type">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="návrh"/>
+            <xs:enumeration value="rozpracovaný"/>
+            <xs:enumeration value="čeká na schválení"/>
+            <xs:enumeration value="publikovaný"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <!-- Language validation (only a few languages are supported) -->
+    <xs:simpleType name="language_type">
+        <xs:restriction base="xs:NMTOKEN">
+            <xs:enumeration value="čeština"/>
+            <xs:enumeration value="english"/>
+            <xs:enumeration value="deutsch"/>
+            <xs:enumeration value="русский"/>
+            <xs:enumeration value="español"/>
+            <xs:enumeration value="français"/>
         </xs:restriction>
     </xs:simpleType>
 </xs:schema>
