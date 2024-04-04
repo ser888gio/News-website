@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <!-- Request wrapper definition -->
+    <xs:element name="data">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="article"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <!-- Article wrapper definition -->
+    <xs:element name="article">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="article-id"/>
+                <xs:element ref="title"/>
+                <xs:element ref="content-status"/>
+                <xs:element ref="podcast-link"/>
+                <xs:element ref="language"/>
+                <xs:element ref="estimated-reading-time-in-minutes"/>
+                <xs:element ref="author"/>
+                <xs:element ref="abstract"/>
+                <xs:element ref="category"/>
+                <xs:element ref="perex"/>
+                <xs:element ref="content"/>
+                <xs:element ref="create-date"/>
+                <xs:element ref="update-date"/>
+                <xs:element ref="citations"/>
+                <xs:element ref="tags"/>
+                <xs:element ref="contributors"/>
+                <xs:element ref="comments"/>
+            </xs:sequence>
+            <xs:attribute name="article-type" type="xs:string"/>
+            <xs:attribute name="status" type="xs:string"/>
+            <xs:attribute name="views" type="xs:integer"/>
+            <xs:attribute name="likes" type="xs:integer"/>
+            <xs:attribute name="source-url" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <!-- Article attributes definition (including data types) -->
+    <xs:element name="article-id" type="xs:integer"/>
+    <xs:element name="title" type="article-title"/>
+    <xs:element name="content-status" type="article-title"/>
+    <xs:element name="podcast-link" type="article-title" nillable="true"/>
+    <xs:element name="language" type="article-title"/>
+    <xs:element name="estimated-reading-time-in-minutes" type="xs:integer"/>
+    <xs:element name="author">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="author-fullname" type="xs:string"/>
+                <xs:element name="author-username" type="xs:string"/>
+                <xs:element name="link-to-author-profile" type="xs:string"/>
+                <xs:element name="author-bio" type="xs:string"/>
+            </xs:sequence>
+            <xs:attribute name="author-id" type="xs:integer"/>
+            <xs:attribute name="department" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="abstract" type="xs:string"/>
+    <xs:element name="category" type="xs:string"/>
+    <xs:element name="perex" type="xs:string"/>
+    <xs:element name="content" type="xs:string"/>
+    <xs:element name="create-date" type="xs:NMTOKEN"/>
+    <xs:element name="update-date" type="xs:NMTOKEN" nillable="true"/>
+    <xs:element name="tags">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="tag"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="tag" type="xs:NCName"/>
+    <xs:element name="citations">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="citation"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="citation" type="xs:string"/>
+    <xs:element name="contributors">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="contributor"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="contributor">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute name="contributor-id" type="xs:integer"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="comments">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="comment"/>
+            </xs:sequence>
+            <xs:attribute name="comments-enabled" type="xs:boolean" />
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="comment">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="comment-author">
+                        <xs:complexType>
+                            <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                    <xs:attribute name="author-email" type="xs:string"/>
+                                </xs:extension>
+                            </xs:simpleContent>
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="comment-profile-link" type="xs:string" />
+                    <xs:element name="comment-content" type="xs:string" />
+                    <xs:element name="comment-publish-date" type="xs:NMTOKEN" />
+                </xs:sequence>
+            </xs:complexType>
+    </xs:element>
+    <!-- Article attributes validation -->
+    <xs:simpleType name="article-title">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="50"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>
