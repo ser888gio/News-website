@@ -6,10 +6,37 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name = "publisher" content = "Zprávy, Noinvy"/>
+    <meta name = "publisher" content = "Zprávy, Novinvy"/>
+    <meta name = "description" content ="Přesné a rychlé zpravodajiství"/>
+    <meta name = "authors" content ="Sergiu Nica, Martin Davidík, Ondřej Křížek"/>
+    <meta name = "keywords" content ="noviny, zprávy, ekonomika, politika, sport, news, economics, politics"/>
+    <!--Opengraph-->
+    <meta property="og:title" content="Zprávy 24/7 - Všechny zprávy na jednom místě"/>
+    <meta property="og:description" content="Zůstaňte informováni o nejnovějších událostech v politice, ekonomice, sportu a dalších oblastech. Nabízíme objektivní a relevantní zpravodajství z celého světa." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://zpravy-24.cz/" />
+    <meta property="og:site_name" content="Zprávy 24/7" />
     <link rel = "stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Zprávy 24/7</title>
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Article",
+            "url": "https://zpravy-24.cz/",
+            "name": "Zprávy 24/7",
+            "datePublished": "2024-04-04",
+            "author": "Sergiu Nica, Martin Davidík, Ondřej Křížek",
+            "election-time": "18:00",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "777 777 777",
+                "contactType": "Zákaznický servis"
+            }
+        }
+    </script>
+
 </head>
 <body>
     <header> <!--Header obsahuje navigační panel s obrazkem a odkázy na sekce stránky-->
@@ -37,7 +64,7 @@
         <div class="politics-part">
             <article class = "politics-article">
                 <h2 class = "article-title">Rozhovor s prezidentem</h2>
-                <p>Petr Pavel je už rok prezidentem. Jak daný období hodnotí. Sledujte dneska v <time datetime="18:00">18:00</time></p>
+                <p>Petr Pavel je už rok prezidentem. Jak daný období hodnotí. Sledujte dneska v <time itemprop="election-time" datetime="18:00">18:00</time></p>
             </article>
             <article class = "politics-article">
                 <h2 class = "article-title">Průzkum: Kdo může vyhrat nasledujicí volby</h2>
@@ -50,7 +77,7 @@
         </div>
     </section>
 
-    <section class = "economics" id = "economics"><!--Sekce s ekonomickými zprávami. Každý article obsahuje titul a text-->
+    <section class = "economics" id = "economics">
         <h2 class = "section-title">Ekonomika</h2>
         <div class="economics-part">
             <article class = "economics-article">
@@ -70,7 +97,7 @@
             </article>
         </div>
     </section>
-    <section class = "sport" id = "sport"><!--Sekce s sportovnimi zprávami. Každý article obsahuje titul a text-->
+    <section class = "sport" id = "sport">
         <h2 class = "section-title">Sport</h2>
         <div class="sport-part">
             <article class = "sport-article">
@@ -93,8 +120,7 @@
             </article>
         </div>
     </section>
-
-    <footer><!--Footer obsahuje odkazy na soc. sítě (vlevo) a kontaktní formulář (vpravo)-->
+    <footer>
         <div class="main-content" id = "footer-content">
             <div class="left-side">
                 <h2>O nás</h2>
@@ -128,7 +154,10 @@
                         </div>
                     </form>
             </section>
-            </div>
+        </div>
+        <div class="copyright-text">
+            <p>Created by <span itemprop="author">Sergiu Nica, Martin Davidík, Ondřej Křížek</span></p>
+        </div>
     </footer>
 </body>
 </html>
