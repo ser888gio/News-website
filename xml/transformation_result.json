@@ -1,62 +1,4 @@
 {
-  "article_1": {
-    "article_id": "1",
-    "article_type": "original",
-    "status": "active",
-    "views": 480,
-    "likes": 11,
-    "title": "Politika a vývoj moderní demokracie",
-    "content_status": "publikovaný",
-    "podcast_link": "https://example.com/politics_podcast",
-    "language": "čeština",
-    "estimated_reading_time_in_minutes": 15,
-    "author": {
-      "author_id": "1",
-      "author_fullname": "Anna Nováková",
-      "author_username": "anna_n",
-      "link_to_author_profile": "https://example.com/authors/anna_n",
-      "author_bio": "Politický analytik se zaměřením na moderní dějiny."
-    },
-    "abstract": "Článek se zaměřuje na vliv politiky na vývoj moderních demokracií a jejich institucí.",
-    "category": "politika",
-    "perex": "Politika má klíčový vliv na vývoj společnosti a demokratických procesů.",
-    "content": "Obsah článku se zaměřuje na historický vývoj politických ideologií a jejich dopad na současnou politickou scénu.",
-    "create_date": "2024-04-04",
-    "update_date": "2024-04-05",
-    "citations": [
-      "Smith, J. (2020). The Evolution of Democracy. Journal of Political Science, 25(2), 123–140.",
-      "Doe, A. (2018). Political Ideologies in the 21st Century. Cambridge University Press."
-    ],
-    "tags": [
-      "politika",
-      "dějiny",
-      "demokracie"
-    ],
-    "contributors": {
-      "1": {
-        "contributor_id": "1",
-        "contributor_name": "John Doe"
-      },
-      "2": {
-        "contributor_id": "2",
-        "contributor_name": "Jane Smith"
-      }
-    },
-    "comments": [
-      {
-        "comment_author": "Pavel Novák",
-        "comment_profile_link": "https://example.com/users/pavel_n",
-        "comment_content": "Skvělý článek!",
-        "comment_publish_date": "2024-04-04"
-      },
-      {
-        "comment_author": "Marie Kovářová",
-        "comment_profile_link": "https://example.com/users/marie_k",
-        "comment_content": "Velmi zajímavé reflexe.",
-        "comment_publish_date": "2024-04-05"
-      }
-    ]
-  },
   "article_2": {
     "article_id": "2",
     "article_type": "derived",
@@ -150,58 +92,6 @@
         "comment_author": "Veronika Nováková",
         "comment_profile_link": "https://example.com/users/veronika_n",
         "comment_content": "Super téma, těším se na další články!",
-        "comment_publish_date": "2024-04-04"
-      }
-    ]
-  },
-  "article_4": {
-    "article_id": "4",
-    "article_type": "",
-    "status": "",
-    "views": null,
-    "likes": null,
-    "title": "Význam mezinárodní diplomacie v 21. století",
-    "content_status": "návrh",
-    "podcast_link": "",
-    "language": "čeština",
-    "estimated_reading_time_in_minutes": 18,
-    "author": {
-      "author_id": "4",
-      "author_fullname": "Jana Svobodová",
-      "author_username": "jana_s",
-      "link_to_author_profile": "https://example.com/authors/jana_s",
-      "author_bio": "Mezinárodní vztahy expert s dlouholetou praxí v diplomatických službách."
-    },
-    "abstract": "Článek zkoumá roli mezinárodní diplomacie v současné globalizované společnosti.",
-    "category": "politika",
-    "perex": "Mezinárodní diplomacie je klíčovým nástrojem pro řešení globálních výzev.",
-    "content": "Obsah článku se zaměřuje na význam diplomacie v prevenci konfliktů, ochranu lidských práv a podporu mezinárodní spolupráce.",
-    "create_date": "2024-03-14",
-    "update_date": "2024-04-01",
-    "citations": [
-      "Miller, D. (2019). International Diplomacy: Theory and Practice. Routledge.",
-      "Lee, H. (2020). Diplomatic Strategies for the 21st Century. Oxford University Press."
-    ],
-    "tags": [
-      "politika",
-      "diplomacie",
-      "vztahy"
-    ],
-    "contributors": {
-      "1": {
-        "contributor_id": "6",
-        "contributor_name": "David Miller"
-      },
-      "2": {
-        "contributor_id": "7",
-        "contributor_name": "Hannah Lee"
-      }
-    },
-    "comments": [
-      {
-        "comment_author": "Martin Novák",
-        "comment_profile_link": "https://example.com/users/martin_n",
-        "comment_content": "Skvělý článek, mám rád, že se někdo zabývá tímto tématem!",
         "comment_publish_date": "2024-04-04"
       }
     ]
@@ -307,6 +197,116 @@
         "comment_profile_link": "https://example.com/users/eva_n",
         "comment_content": "Great article, thank you very much!",
         "comment_publish_date": "2024-04-04"
+      }
+    ]
+  },
+  "article_4": {
+    "article_id": "4",
+    "article_type": "",
+    "status": "",
+    "views": null,
+    "likes": null,
+    "title": "Význam mezinárodní diplomacie v 21. století",
+    "content_status": "návrh",
+    "podcast_link": "",
+    "language": "čeština",
+    "estimated_reading_time_in_minutes": 18,
+    "author": {
+      "author_id": "4",
+      "author_fullname": "Jana Svobodová",
+      "author_username": "jana_s",
+      "link_to_author_profile": "https://example.com/authors/jana_s",
+      "author_bio": "Mezinárodní vztahy expert s dlouholetou praxí v diplomatických službách."
+    },
+    "abstract": "Článek zkoumá roli mezinárodní diplomacie v současné globalizované společnosti.",
+    "category": "politika",
+    "perex": "Mezinárodní diplomacie je klíčovým nástrojem pro řešení globálních výzev.",
+    "content": "Obsah článku se zaměřuje na význam diplomacie v prevenci konfliktů, ochranu lidských práv a podporu mezinárodní spolupráce.",
+    "create_date": "2024-03-14",
+    "update_date": "2024-04-01",
+    "citations": [
+      "Miller, D. (2019). International Diplomacy: Theory and Practice. Routledge.",
+      "Lee, H. (2020). Diplomatic Strategies for the 21st Century. Oxford University Press."
+    ],
+    "tags": [
+      "politika",
+      "diplomacie",
+      "vztahy"
+    ],
+    "contributors": {
+      "1": {
+        "contributor_id": "6",
+        "contributor_name": "David Miller"
+      },
+      "2": {
+        "contributor_id": "7",
+        "contributor_name": "Hannah Lee"
+      }
+    },
+    "comments": [
+      {
+        "comment_author": "Martin Novák",
+        "comment_profile_link": "https://example.com/users/martin_n",
+        "comment_content": "Skvělý článek, mám rád, že se někdo zabývá tímto tématem!",
+        "comment_publish_date": "2024-04-04"
+      }
+    ]
+  },
+  "article_1": {
+    "article_id": "1",
+    "article_type": "original",
+    "status": "active",
+    "views": 480,
+    "likes": 11,
+    "title": "Politika a vývoj moderní demokracie",
+    "content_status": "publikovaný",
+    "podcast_link": "https://example.com/politics_podcast",
+    "language": "čeština",
+    "estimated_reading_time_in_minutes": 15,
+    "author": {
+      "author_id": "1",
+      "author_fullname": "Anna Nováková",
+      "author_username": "anna_n",
+      "link_to_author_profile": "https://example.com/authors/anna_n",
+      "author_bio": "Politický analytik se zaměřením na moderní dějiny."
+    },
+    "abstract": "Článek se zaměřuje na vliv politiky na vývoj moderních demokracií a jejich institucí.",
+    "category": "politika",
+    "perex": "Politika má klíčový vliv na vývoj společnosti a demokratických procesů.",
+    "content": "Obsah článku se zaměřuje na historický vývoj politických ideologií a jejich dopad na současnou politickou scénu.",
+    "create_date": "2023-04-04",
+    "update_date": "2024-04-05",
+    "citations": [
+      "Smith, J. (2020). The Evolution of Democracy. Journal of Political Science, 25(2), 123–140.",
+      "Doe, A. (2018). Political Ideologies in the 21st Century. Cambridge University Press."
+    ],
+    "tags": [
+      "politika",
+      "dějiny",
+      "demokracie"
+    ],
+    "contributors": {
+      "1": {
+        "contributor_id": "1",
+        "contributor_name": "John Doe"
+      },
+      "2": {
+        "contributor_id": "2",
+        "contributor_name": "Jane Smith"
+      }
+    },
+    "comments": [
+      {
+        "comment_author": "Pavel Novák",
+        "comment_profile_link": "https://example.com/users/pavel_n",
+        "comment_content": "Skvělý článek!",
+        "comment_publish_date": "2024-04-04"
+      },
+      {
+        "comment_author": "Marie Kovářová",
+        "comment_profile_link": "https://example.com/users/marie_k",
+        "comment_content": "Velmi zajímavé reflexe.",
+        "comment_publish_date": "2024-04-05"
       }
     ]
   }
