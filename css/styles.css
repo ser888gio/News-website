@@ -57,7 +57,7 @@ header, .politics, .economics, .sport{
     height: 300px;
 }
 
-aside {
+aside{
     width: 100%;
     padding-left: 0.5rem;
     margin-left: -20px;
@@ -118,7 +118,7 @@ footer{
     margin: 20px 0 0 0;
 }
 
-.fa {
+.fa{
     padding: 20px;
     font-size: 30px;
     width: 50px;
@@ -131,7 +131,7 @@ footer{
     padding: 100px;
 }
 
-.button-send {
+.button-send{
     align-items: center;
     background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
     border-radius: 6px;
